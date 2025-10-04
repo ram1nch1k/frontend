@@ -3,3 +3,19 @@
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
+
+
+.nav-menu
+{
+  background-color: red;
+
+}
+
+.site-name
+{
+  color: blue;
+}
+.text
+{
+  color: red;
+}
