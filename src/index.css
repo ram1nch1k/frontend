@@ -4,7 +4,7 @@
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
 
-<<<<<<< head .nav-menu {
+.nav-menu {
   height: 80px;
   background-color: #232536;
 }
@@ -35,16 +35,90 @@
   line-height: 28px;
 }
 
-.subscribe-button {
+.header__subscribe-button {
   background-color: white;
   width: 179px;
   height: 56px;
   position: relative;
   left: 1661px;
   top: -45px;
-  padding: 16px 48px auto;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0;
   vertical-align: middle;
 }
+
+.home-hero {
+  background-color: red;
+  height: 720px;
+  width: auto;
+  border-top: 1px solid transparent;
+}
+
+.home-hero__hero-info {
+  border-top: 1px solid transparent;
+  background-color: black;
+  height: 56%;
+  width: 56%;
+  margin-top: 128px;
+  margin-left: 6%;
+}
+
+.hero-info__hero-text1 {
+  background-color: white;
+  height: 20px;
+  width: 28%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hero-info__hero-text1-bold {
+  font-weight: 900;
+}
+
+.hero-info__hero-text2 {
+  background-color: white;
+  height: 128px;
+  width: 100%;
+  margin-top: 44px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+.hero-info__hero-text3 {
+  background-color: white;
+  height: 28px;
+  width: 39%;
+  margin-top: 24px;
+}
+
+.hero-info__hero-text4 {
+  background-color: white;
+  height: 56px;
+  width: 75%;
+  margin-top: 16px;
+}
+
+.hero-info__hero-text3-style {
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.read-more-button {
+  background-color: #ffd050;
+  height: 56px;
+  width: 25%;
+  margin-top: 30px;
+}
+
+/* .posts {
+  background-color: red;
+  margin-top: 928px;
+  height: 804px;
+  width: 1000px;
+} */
