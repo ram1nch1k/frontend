@@ -4,18 +4,47 @@
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
 
-
-.nav-menu
-{
-  background-color: red;
-
+.nav-menu {
+  height: 80px;
+  background-color: #232536;
 }
 
-.site-name
-{
-  color: blue;
+.site-name-div {
+  width: 140px;
+  height: 28.35px;
+  position: relative;
+  top: 25px;
+  left: 83px;
+  text-align: center;
+  font-size: 31px;
+  line-height: 28.35px;
+  font-weight: bold;
+  color: white;
 }
-.text
-{
-  color: red;
+
+.links-list {
+  width: 305px;
+  height: 29px;
+  margin-right: 291px;
+  margin-left: auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.subscribe-button {
+  background-color: white;
+  width: 179px;
+  height: 56px;
+  position: relative;
+  left: 1661px;
+  top: -45px;
+  padding: 16px 48px auto;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  vertical-align: middle;
 }
