@@ -3,3 +3,11 @@
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
+
+body {
+  background-color: darkkhaki;
+}
+
+h1 {
+  color: green;
+}
