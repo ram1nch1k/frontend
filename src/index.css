@@ -49,23 +49,26 @@
 }
 
 .home-hero {
-  background-color: red;
+  background-image: url('images/human-with-macbook.png');
   height: 720px;
   width: auto;
   border-top: 1px solid transparent;
+  color: white;
 }
 
 .home-hero__hero-info {
   border-top: 1px solid transparent;
-  background-color: black;
   height: 56%;
   width: 56%;
   margin-top: 128px;
   margin-left: 6%;
 }
 
+.hero-info__hero-text1-bold {
+  font-weight: 900;
+}
+
 .hero-info__hero-text1 {
-  background-color: white;
   height: 20px;
   width: 28%;
   font-weight: 600;
@@ -75,12 +78,7 @@
   text-transform: uppercase;
 }
 
-.hero-info__hero-text1-bold {
-  font-weight: 900;
-}
-
 .hero-info__hero-text2 {
-  background-color: white;
   height: 128px;
   width: 100%;
   margin-top: 44px;
@@ -91,17 +89,19 @@
 }
 
 .hero-info__hero-text3 {
-  background-color: white;
   height: 28px;
   width: 39%;
   margin-top: 24px;
 }
 
 .hero-info__hero-text4 {
-  background-color: white;
   height: 56px;
   width: 75%;
   margin-top: 16px;
+}
+
+.hero-info__hero-text3-yellow {
+  color: #ffd050;
 }
 
 .hero-info__hero-text3-style {
@@ -109,16 +109,27 @@
   letter-spacing: 0;
 }
 
-.read-more-button {
+.read-more-button-style {
   background-color: #ffd050;
   height: 56px;
   width: 25%;
+  color: #232536;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.hero-info__read-more-button {
   margin-top: 30px;
 }
 
-/* .posts {
+.featured-posts {
   background-color: red;
-  margin-top: 928px;
   height: 804px;
-  width: 1000px;
-} */
+  width: 89%;
+  margin: auto;
+  margin-top: 128px;
+}
+
+.featured-post__post-wrapper {
+}
