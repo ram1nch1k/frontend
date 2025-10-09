@@ -1,0 +1,8 @@
+.page {
+}
+
+.page__header {
+  height: 80px;
+  width: 100%;
+  background-color: #232536;
+}
