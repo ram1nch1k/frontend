@@ -52,6 +52,10 @@
   letter-spacing: 0;
 }
 
+.body_1_yellow {
+  color: #ffd050;
+}
+
 .body_2 {
 }
 
@@ -70,6 +74,10 @@
   line-height: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+
+.cap_1_bold {
+  font-weight: 900;
 }
 
 .cap_2 {
