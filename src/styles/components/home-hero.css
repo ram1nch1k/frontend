@@ -46,7 +46,7 @@
   background-color: #ffd050;
   height: 56px;
   width: 25%;
-  min-width: 112px;
+  min-width: 128px;
 }
 
 @media (width < 1200px) {
