@@ -2,6 +2,7 @@
   background-image: url('C:\Users\zniki\OneDrive\Документы\GitHub\frontend\src\images\human-with-macbook.png');
   height: 100%;
   width: 100%;
+  padding-top: 128px;
 }
 
 .home-hero__hero-info {
@@ -9,44 +10,63 @@
   min-height: 400px;
   width: 63%;
   min-width: 380px;
-  position: relative;
-  top: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-info__text_1 {
-  height: 20px;
+  /* height: 20px; */
+  height: 44px;
   width: 28%;
   min-width: 380px;
 }
 
 .hero-info__text_2 {
-  height: 128px;
+  /* height: 128px; */
+  height: 152px;
   width: 100%;
-  position: relative;
-  top: 24px;
 }
 
 .hero-info__text_3 {
-  height: 28px;
+  /* height: 28px; */
+  height: 44px;
   width: 30%;
   min-width: 380px;
-  position: relative;
-  top: 48px;
 }
 
 .hero-info__text_4 {
-  height: 56px;
+  /* height: 56px; */
+  height: 104px;
   width: 75%;
   min-width: 380px;
-  position: relative;
-  top: 76px;
 }
 
 .hero-info__read-more-btn {
   background-color: #ffd050;
   height: 56px;
   width: 25%;
-  position: relative;
-  top: 112px;
   min-width: 112px;
+}
+
+@media (width < 1200px) {
+  .home-hero__hero-info {
+    width: 100%;
+  }
+}
+
+@media (width < 700px) {
+  .hero-info__text_1 {
+    font-size: 12px;
+  }
+
+  .hero-info__text_2 {
+    font-size: 36px;
+  }
+}
+
+@media (width < 728px) {
+  .home-hero__hero-info {
+    height: 100%;
+  }
 }
