@@ -115,6 +115,10 @@
   color: #592ea9;
 }
 
+.all-posts__view-all-label:hover {
+  text-decoration: underline;
+}
+
 .all-posts__posts-list {
   display: flex;
   flex-direction: column;
