@@ -1,5 +1,133 @@
 .info {
   width: 100%;
   height: 100%;
-  background-color: black;
+}
+
+.info__pattern {
+  height: 23px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info__pattern_yellow {
+  background-color: #ffd050;
+  width: 61%;
+}
+
+.info__pattern_purple {
+  background-color: #592ea9;
+  width: 22%;
+}
+
+.info__container {
+  background-color: #f4f0f8;
+  width: 100%;
+  height: 100%;
+  padding-top: 96px;
+  padding-left: 6.25%;
+  padding-right: 8.4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__about-us {
+  width: 47%;
+  height: 308px;
+}
+
+.info__our-mission {
+  width: 47%;
+  height: 248.73px;
+}
+
+.about-us__text_1 {
+  color: #232536;
+  width: 100%;
+  height: 44px;
+}
+
+.about-us__text_2 {
+  color: #232536;
+  width: 100%;
+  height: 160px;
+}
+
+.about-us__text_3 {
+  width: 100%;
+  height: 72px;
+}
+
+.about-us__read-more-link {
+  color: #592ea9;
+  height: 32px;
+  width: 100%;
+}
+
+.about-us__read-more-link:hover {
+  text-decoration: underline;
+}
+
+.our-mission__text_1 {
+  color: #232536;
+  width: 100%;
+  height: 44px;
+}
+
+.our-mission__text_2 {
+  color: #232536;
+  width: 100%;
+  height: 96px;
+}
+
+.our-mission__text_3 {
+  width: 100%;
+  height: 108.73px;
+}
+
+@media (width < 1000px) {
+  .about-us__text_1,
+  .our-mission__text_1 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .about-us__text_2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .our-mission__text_2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .about-us__text_3,
+  .our-mission__text_3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (width < 600px) {
+  .about-us__text_1,
+  .our-mission__text_1 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .about-us__text_2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .our-mission__text_2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about-us__text_3,
+  .our-mission__text_3 {
+    font-size: 10px;
+    line-height: 14px;
+  }
 }
