@@ -43,6 +43,10 @@
   padding-right: 32px;
 }
 
+.categories__item:hover {
+  background-color: #ffd050;
+}
+
 .item__icon__container {
   height: 64px;
   width: 48px;
@@ -54,6 +58,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fbf6ea;
+  border-radius: 12px;
 }
 
 .item__text_1 {
