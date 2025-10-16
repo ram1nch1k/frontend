@@ -1,5 +1,6 @@
 .home-hero__content {
-  /* background-image: url('C:\Users\zniki\OneDrive\Документы\GitHub\frontend\public\images\human-with-macbook.png'); */
+  background-image: url('C:\Users\zniki\Documents\GitHub\frontend\public\images\human-with-macbook.png');
+  background-size: cover;
   height: 100%;
   width: 100%;
   padding-top: 128px;
@@ -57,6 +58,9 @@
   .home-hero__hero-info {
     width: 100%;
   }
+
+  .hero-info__text_2 {
+  }
 }
 
 @media (width < 700px) {
@@ -66,6 +70,7 @@
 
   .hero-info__text_2 {
     font-size: 36px;
+    line-height: 54px;
   }
 }
 
