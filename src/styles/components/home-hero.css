@@ -1,5 +1,5 @@
 .home-hero__content {
-  background-image: url('C:\Users\zniki\OneDrive\Документы\GitHub\frontend\src\images\human-with-macbook.png');
+  /* background-image: url('C:\Users\zniki\OneDrive\Документы\GitHub\frontend\public\images\human-with-macbook.png'); */
   height: 100%;
   width: 100%;
   padding-top: 128px;
@@ -19,12 +19,14 @@
   height: 44px;
   width: 28%;
   min-width: 380px;
+  color: white;
 }
 
 .hero-info__text_2 {
   /* height: 128px; */
   height: 152px;
   width: 100%;
+  color: white;
 }
 
 .hero-info__text_3 {
@@ -32,6 +34,7 @@
   height: 44px;
   width: 30%;
   min-width: 380px;
+  color: white;
 }
 
 .hero-info__text_4 {
@@ -39,6 +42,7 @@
   height: 104px;
   width: 100%;
   min-width: 380px;
+  color: white;
 }
 
 .hero-info__read-more-btn {
@@ -46,6 +50,7 @@
   height: 56px;
   width: 25%;
   min-width: 128px;
+  color: #232536;
 }
 
 @media (width < 1200px) {
