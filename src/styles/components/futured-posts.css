@@ -51,6 +51,7 @@
   /* background-color: aqua; */
 
   /* background-image: url('C:\Users\zniki\OneDrive\Документы\GitHub\frontend\public\images\white-house.png'); */
+  object-fit: cover;
 }
 
 .post-wrapper__name-date {
