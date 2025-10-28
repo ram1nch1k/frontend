@@ -2,11 +2,16 @@
   height: 100%;
   width: 100%;
   padding-top: 128px;
+
+  /* background-repeat: no-repeat; */
+}
+
+.home-hero__image {
+  width: 100%;
+  height: 100%;
   background-image: url('C:\Users\zniki\OneDrive\Документы\GitHub\frontend\public\images\human-with-macbook.png');
   background-size: cover;
   background-position: center;
-
-  /* background-repeat: no-repeat; */
 }
 
 .home-hero__hero-info {
