@@ -37,7 +37,7 @@
   justify-content: space-between;
 }
 
-.post-wrapper__image__container {
+.post-wrapper__image-container {
   height: 384px;
   width: 100%;
   display: flex;
