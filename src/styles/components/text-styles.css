@@ -53,7 +53,7 @@
 }
 
 .body_1_yellow {
-  color: #ffd050;
+  color: var(--color-yellow);
 }
 
 .body_2 {

@@ -10,17 +10,17 @@
 }
 
 .info__pattern_yellow {
-  background-color: #ffd050;
+  background-color: var(--color-yellow);
   width: 61%;
 }
 
 .info__pattern_purple {
-  background-color: #592ea9;
+  background-color: var(--color-purple);
   width: 22%;
 }
 
 .info__container {
-  background-color: #f4f0f8;
+  background-color: var(--color-lavender);
   width: 100%;
   height: 500px;
   padding-top: 96px;
@@ -41,13 +41,13 @@
 }
 
 .about-us__text_1 {
-  color: #232536;
+  color: var(--color-black);
   width: 100%;
   height: 44px;
 }
 
 .about-us__text_2 {
-  color: #232536;
+  color: var(--color-black);
   width: 100%;
   height: 160px;
 }
@@ -58,7 +58,7 @@
 }
 
 .about-us__read-more-link {
-  color: #592ea9;
+  color: var(--color-purple);
   height: 32px;
   width: 100%;
 }
@@ -68,13 +68,13 @@
 }
 
 .our-mission__text_1 {
-  color: #232536;
+  color: var(--color-black);
   width: 100%;
   height: 44px;
 }
 
 .our-mission__text_2 {
-  color: #232536;
+  color: var(--color-black);
   width: 100%;
   height: 96px;
 }

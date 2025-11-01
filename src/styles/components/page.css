@@ -4,7 +4,7 @@
 .page__header {
   height: 80px;
   width: 100%;
-  background-color: #232536;
+  background-color: var(--color-black);
 }
 
 .page__content {

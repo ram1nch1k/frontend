@@ -16,7 +16,7 @@
 .futured-post__label {
   width: 100%;
   height: 48px;
-  color: #232536;
+  color: var(--color-black);
 }
 
 .futured-post__post-wrapper {
@@ -26,7 +26,7 @@
   justify-content: center;
   padding: 32px;
   border: 1px solid;
-  border-color: #6d6e76;
+  border-color: var(--color-medium-grey);
 }
 
 .post-wrapper__container {
@@ -58,7 +58,7 @@
 }
 
 .futured-posts__name-date_purple {
-  color: #592ea9;
+  color: var(--color-purple);
 }
 
 .post-wrapper__text_1 {
@@ -66,7 +66,7 @@
 
   /* height: 80px; */
   height: 96px;
-  color: #232536;
+  color: var(--color-black);
 }
 
 .post-wrapper__text_2 {
@@ -74,15 +74,15 @@
 
   /* height: 56px; */
   height: 88px;
-  color: #6d6e76;
+  color: var(--color-medium-grey);
 }
 
 .post-wrapper__read-more-btn {
-  background-color: #ffd050;
+  background-color: var(--color-yellow);
   height: 56px;
   width: 30%;
   min-width: 128px;
-  color: #232536;
+  color: var(--color-black);
 }
 
 .futured-posts__all-posts {
@@ -112,7 +112,7 @@
 .all-posts__view-all-label {
   width: 100%;
   height: 28px;
-  color: #592ea9;
+  color: var(--color-purple);
 }
 
 .all-posts__view-all-label:hover {
@@ -134,7 +134,7 @@
 }
 
 .posts-list__post:hover {
-  background-color: #fbf6ea;
+  background-color: var(--color-light-yellow);
 }
 
 .posts-list__post__container {

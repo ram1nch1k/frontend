@@ -37,14 +37,14 @@
   height: 228px;
   width: 296px;
   border: 1px solid;
-  border-color: #6d6e76;
+  border-color: var(--color-medium-grey);
   padding-top: 32px;
   padding-left: 32px;
   padding-right: 32px;
 }
 
 .categories__item:hover {
-  background-color: #ffd050;
+  background-color: var(--color-yellow);
 }
 
 .item__icon__container {
@@ -58,18 +58,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fbf6ea;
+  background-color: var(--color-light-yellow);
   border-radius: 12px;
 }
 
 .item__text_1 {
   width: 100%;
   height: 40px;
-  color: #232536;
+  color: var(--color-black);
 }
 
 .item__text_2 {
   width: 100%;
   height: 56px;
-  color: #6d6e76;
+  color: var(--color-medium-grey);
 }

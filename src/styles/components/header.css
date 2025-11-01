@@ -24,7 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: var(--color-light);
 }
 
 .links-list__item:hover {
@@ -35,8 +35,8 @@
   width: 34.7%;
   min-width: 100px;
   height: 56px;
-  background-color: white;
-  color: #232536;
+  background-color: var(--color-light);
+  color: var(--color-black);
 }
 
 @media (width < 600px) {
