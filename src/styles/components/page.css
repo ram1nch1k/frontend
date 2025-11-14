@@ -1,6 +1,10 @@
 .page {
 }
 
+.padding_block {
+  height: 128px;
+}
+
 .page__header {
   height: 80px;
   width: 100%;

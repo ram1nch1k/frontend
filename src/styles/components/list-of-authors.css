@@ -9,8 +9,11 @@
 }
 
 .list-of-authors__list__item {
+  padding-top: 40px;
   width: 296px;
   height: 324px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -29,6 +32,8 @@
 
 .list-of-authors__item__post {
   width: 240px;
+  display: flex;
+  justify-content: center;
 }
 
 .list-of-authors__item__social_wrapper {
