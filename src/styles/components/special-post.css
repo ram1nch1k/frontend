@@ -1,0 +1,40 @@
+.special-post__photo {
+  width: 949px;
+  position: absolute;
+  z-index: 2;
+}
+
+.special-post__content {
+  width: 706px;
+  height: 584px;
+  position: absolute;
+  z-index: 10;
+  background-color: var(--color-light);
+  bottom: -705px;
+  right: 0;
+}
+
+.content.cap_1 {
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+.content.heading_h1 {
+  padding-top: 24px;
+  padding-left: 80px;
+}
+
+.content.body_1 {
+  padding-top: 16px;
+  padding-left: 80px;
+}
+
+.content__button {
+  margin-top: 32px;
+  margin-left: 80px;
+  background-color: var(--color-yellow);
+  height: 56px;
+  width: 30%;
+  min-width: 128px;
+  color: var(--color-black);
+}

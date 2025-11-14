@@ -1,0 +1,40 @@
+.list-of-authors__header {
+  text-align: center;
+}
+
+.list-of-authors__list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.list-of-authors__list__item {
+  width: 296px;
+  height: 324px;
+  align-items: center;
+}
+
+.list-of-authors__list__item:hover {
+  background-color: var(--color-yellow);
+}
+
+.list-of-authors__item__picture {
+  width: 128px;
+}
+
+.list-of-authors__item__name {
+  padding-top: 20px;
+  width: 143px;
+}
+
+.list-of-authors__item__post {
+  width: 240px;
+}
+
+.list-of-authors__item__social_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-top: 20px;
+  width: 112px;
+}

@@ -1,0 +1,15 @@
+.page__join-our-team {
+  width: 414px;
+  margin: auto;
+  padding-top: 128px;
+  text-align: center;
+}
+
+.page__join-our-team__button {
+  margin-top: 32px;
+  background-color: var(--color-yellow);
+  height: 56px;
+  width: 30%;
+  min-width: 128px;
+  color: var(--color-black);
+}
