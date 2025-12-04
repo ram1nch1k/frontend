@@ -1,0 +1,59 @@
+.footer {
+  padding-top: 59px;
+  padding-bottom: 56px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 703px;
+  margin-bottom: 55px;
+}
+
+.links-list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 24px;
+  width: 434px;
+  color: var(--color-light);
+}
+
+.cta {
+  background-color: var(--color-medium-grey);
+  display: flex;
+  padding: 60px 64px;
+}
+
+.cta__text {
+  color: var(--color-light);
+  width: 562px;
+}
+
+.cta__input {
+  padding-right: 24px;
+  padding-left: 64px;
+}
+
+.cta__input_field {
+  background-color: var(--color-medium-grey);
+  width: 323px;
+  height: 56px;
+  padding-left: 25px;
+}
+
+.cta__button {
+  background-color: var(--color-yellow);
+  width: 179px;
+  height: 56px;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  gap: 775px;
+  padding-top: 48px;
+}
+
+.footer__contact-information {
+  width: 361px;
+}
