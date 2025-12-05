@@ -50,6 +50,10 @@
   padding-top: 833px;
 }
 
+.page__footer {
+  background-color: var(--color-black);
+}
+
 @media (width < 900px) {
   .page__futured-posts {
     width: 100%;
