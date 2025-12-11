@@ -54,6 +54,10 @@
   background-color: var(--color-black);
 }
 
+.page__gap {
+  height: 128px;
+}
+
 @media (width < 900px) {
   .page__futured-posts {
     width: 100%;

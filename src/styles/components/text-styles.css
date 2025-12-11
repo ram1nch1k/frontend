@@ -76,6 +76,13 @@
   text-transform: uppercase;
 }
 
+.cap_2 {
+}
+
+.cap_2_bold {
+  font-weight: 900;
+}
+
 .cap_1_bold {
   font-weight: 900;
 }

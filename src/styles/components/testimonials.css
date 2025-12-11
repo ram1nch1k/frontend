@@ -21,7 +21,8 @@
   padding-right: 96px;
 }
 
-.block_2 {
+.block_2-bottom {
+  display: flex;
 }
 
 .block_2__messages {
@@ -42,6 +43,7 @@
 .profile__picture {
   grid-column: 1;
   grid-row: 1 / span 2;
+  padding-right: 16px;
 }
 
 .profile__name {
@@ -55,4 +57,6 @@
 .buttons {
   display: flex;
   align-items: center;
+  padding-left: 141px;
+  gap: 24px;
 }
