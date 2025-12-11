@@ -1,23 +1,19 @@
 .category {
-  width: 100%;
-  height: 100%;
 }
 
 .category__header {
-  width: 100%;
   height: 96px;
   display: flex;
   justify-content: center;
 }
 
-.category__header__text {
+.category__header-text {
   width: 302px;
   height: 48px;
   color: #232536;
 }
 
 .category__categories {
-  width: 100%;
   height: 228px;
   display: flex;
   justify-content: space-between;
@@ -47,7 +43,7 @@
   background-color: var(--color-yellow);
 }
 
-.item__icon__container {
+.item__icon-container {
   height: 64px;
   width: 48px;
 }
@@ -62,13 +58,13 @@
   border-radius: 12px;
 }
 
-.item__text_1 {
+.item__text-1 {
   width: 100%;
   height: 40px;
   color: var(--color-black);
 }
 
-.item__text_2 {
+.item__text-2 {
   width: 100%;
   height: 56px;
   color: var(--color-medium-grey);

@@ -1,13 +1,10 @@
 .home-hero__content {
-  height: 100%;
-  width: 100%;
   padding-top: 128px;
 }
 
 .home-hero__image {
-  width: 100%;
-  max-width: 1440px;
   height: 100%;
+  max-width: 1440px;
   background-image: url('images/human-with-macbook.png');
   background-size: cover;
   background-position: center;
@@ -24,7 +21,7 @@
   flex-direction: column;
 }
 
-.hero-info__text_1 {
+.hero-info__text-1 {
   /* height: 20px; */
   height: 44px;
   width: 28%;
@@ -32,14 +29,13 @@
   color: var(--color-light);
 }
 
-.hero-info__text_2 {
+.hero-info__text-2 {
   /* height: 128px; */
   height: 152px;
-  width: 100%;
   color: var(--color-light);
 }
 
-.hero-info__text_3 {
+.hero-info__text-3 {
   /* height: 28px; */
   height: 44px;
   width: 30%;
@@ -47,10 +43,9 @@
   color: var(--color-light);
 }
 
-.hero-info__text_4 {
+.hero-info__text-4 {
   /* height: 56px; */
   height: 104px;
-  width: 100%;
   min-width: 380px;
   color: var(--color-light);
 }
@@ -68,16 +63,16 @@
     width: 100%;
   }
 
-  .hero-info__text_2 {
+  .hero-info__text-2 {
   }
 }
 
 @media (width < 700px) {
-  .hero-info__text_1 {
+  .hero-info__text-1 {
     font-size: 12px;
   }
 
-  .hero-info__text_2 {
+  .hero-info__text-2 {
     font-size: 36px;
     line-height: 54px;
   }
@@ -85,6 +80,5 @@
 
 @media (width < 728px) {
   .home-hero__hero-info {
-    height: 100%;
   }
 }

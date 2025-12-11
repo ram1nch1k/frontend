@@ -6,26 +6,26 @@
   padding-bottom: 74px;
 }
 
-.page__testimonials__heading {
+.page__testimonials-heading {
   width: 349px;
   height: 200px;
 }
 
-.heading__text_2 {
+.testimonials-heading__text-2 {
   padding-top: 12px;
   padding-bottom: 16px;
 }
 
-.page__testimonials__line {
+.page__testimonials-line {
   padding-left: 80px;
   padding-right: 96px;
 }
 
-.block_2-bottom {
+.block-2__bottom {
   display: flex;
 }
 
-.block_2__messages {
+.block-2__messages {
   width: 469px;
   height: 128px;
   margin-bottom: 121px;

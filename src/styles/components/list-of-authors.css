@@ -8,7 +8,7 @@
   gap: 32px;
 }
 
-.list-of-authors__list__item {
+.list-of-authors__list-item {
   padding-top: 40px;
   width: 296px;
   height: 324px;
@@ -17,26 +17,26 @@
   align-items: center;
 }
 
-.list-of-authors__list__item:hover {
-  background-color: var(--color-yellow);
+.list-of-authors__list-item:hover {
+  background-color: var(--color-light-yellow);
 }
 
-.list-of-authors__item__picture {
+.list-of-authors__item-picture {
   width: 128px;
 }
 
-.list-of-authors__item__name {
+.list-of-authors__item-name {
   padding-top: 20px;
-  width: 143px;
+  text-align: center;
 }
 
-.list-of-authors__item__post {
+.list-of-authors__item-post {
   width: 240px;
   display: flex;
   justify-content: center;
 }
 
-.list-of-authors__item__social_wrapper {
+.list-of-authors__item-social-wrapper {
   display: flex;
   flex-direction: row;
   gap: 16px;
