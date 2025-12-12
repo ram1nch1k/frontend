@@ -1,0 +1,30 @@
+.cta {
+  background-color: var(--color-medium-grey);
+  display: flex;
+  padding: 60px 64px;
+}
+
+.cta__text {
+  color: var(--color-light);
+  width: 562px;
+}
+
+.cta__input {
+  padding-right: 24px;
+  padding-left: 64px;
+}
+
+.cta__input-field {
+  background-color: var(--color-medium-grey);
+  width: 323px;
+  height: 56px;
+  padding-left: 25px;
+  border: 1px solid;
+  border-color: var(--color-dark-grey);
+}
+
+.cta__button {
+  background-color: var(--color-yellow);
+  width: 179px;
+  height: 56px;
+}

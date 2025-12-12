@@ -1,0 +1,47 @@
+.hero-info__text-1 {
+  /* height: 20px; */
+  height: 44px;
+  width: 28%;
+  min-width: 380px;
+  color: var(--color-light);
+}
+
+.hero-info__text-2 {
+  /* height: 128px; */
+  height: 152px;
+  color: var(--color-light);
+}
+
+.hero-info__text-3 {
+  /* height: 28px; */
+  height: 44px;
+  width: 30%;
+  min-width: 380px;
+  color: var(--color-light);
+}
+
+.hero-info__text-4 {
+  /* height: 56px; */
+  height: 104px;
+  min-width: 380px;
+  color: var(--color-light);
+}
+
+.hero-info__read-more-btn {
+  background-color: var(--color-yellow);
+  height: 56px;
+  width: 25%;
+  min-width: 128px;
+  color: var(--color-black);
+}
+
+@media (width < 700px) {
+  .hero-info__text-1 {
+    font-size: 12px;
+  }
+
+  .hero-info__text-2 {
+    font-size: 36px;
+    line-height: 54px;
+  }
+}

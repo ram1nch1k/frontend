@@ -21,40 +21,7 @@
   padding-right: 96px;
 }
 
-.block-2__bottom {
-  display: flex;
-}
-
-.block-2__messages {
-  width: 469px;
-  height: 128px;
-  margin-bottom: 121px;
-}
-
-.profile {
-  width: 257px;
-  height: 60px;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto;
-  align-items: center;
-}
-
-.profile__picture {
-  grid-column: 1;
-  grid-row: 1 / span 2;
-  padding-right: 16px;
-}
-
-.profile__name {
-  flex-direction: column;
-}
-
-.profile__city {
-  flex-direction: column;
-}
-
-.buttons {
+.testimonials__buttons {
   display: flex;
   align-items: center;
   padding-left: 141px;

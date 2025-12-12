@@ -16,22 +16,7 @@
   padding-left: 80px;
 }
 
-.content.cap_1 {
-  padding-top: 80px;
-  padding-left: 80px;
-}
-
-.content.heading_h1 {
-  padding-top: 24px;
-  padding-left: 80px;
-}
-
-.content.body_1 {
-  padding-top: 16px;
-  padding-left: 80px;
-}
-
-.content__button {
+.special-post__button {
   margin-top: 32px;
   margin-left: 80px;
   background-color: var(--color-yellow);

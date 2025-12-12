@@ -1,0 +1,9 @@
+.block-2__bottom {
+  display: flex;
+}
+
+.block-2__messages {
+  width: 469px;
+  height: 128px;
+  margin-bottom: 121px;
+}

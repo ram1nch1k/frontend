@@ -1,0 +1,31 @@
+.all-posts__header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-posts__label {
+  height: 48px;
+  width: 26%;
+  min-width: 133px;
+}
+
+.all-posts__view-all-label-container {
+  width: 60px;
+  padding-top: 11px;
+}
+
+.all-posts__view-all-label {
+  height: 28px;
+  color: var(--color-purple);
+}
+
+.all-posts__view-all-label:hover {
+  text-decoration: underline;
+}
+
+.all-posts__posts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

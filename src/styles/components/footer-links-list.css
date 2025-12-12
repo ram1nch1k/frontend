@@ -1,0 +1,8 @@
+.footer-links-list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 24px;
+  /* gemtr */
+  width: 434px;
+  color: var(--color-light);
+}

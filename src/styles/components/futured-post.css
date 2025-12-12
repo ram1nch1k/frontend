@@ -1,0 +1,19 @@
+.futured-post__label {
+  height: 48px;
+  color: var(--color-black);
+}
+
+.futured-post__post-wrapper {
+  height: 733px;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  border: 1px solid;
+  border-color: var(--color-medium-grey);
+}
+
+@media (width < 1100px) {
+  .futured-post__post-wrapper {
+    padding: 0;
+  }
+}
