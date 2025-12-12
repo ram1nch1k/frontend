@@ -12,6 +12,8 @@
   background-color: var(--color-light);
   bottom: -705px;
   right: 0;
+  padding-top: 80px;
+  padding-left: 80px;
 }
 
 .content.cap_1 {

@@ -1,4 +1,4 @@
-.display {
+.utl-txt-display {
   font-family: Sen, sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -6,7 +6,7 @@
   letter-spacing: -2px;
 }
 
-.heading_h1 {
+.utl-txt-heading-h1 {
   font-family: Sen, sans-serif;
   font-weight: 700;
   font-size: 48px;
@@ -14,7 +14,7 @@
   letter-spacing: -2px;
 }
 
-.heading_h2 {
+.utl-txt-heading-h2 {
   font-family: Sen, sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -22,7 +22,7 @@
   letter-spacing: -2px;
 }
 
-.heading_h3 {
+.utl-txt-heading-h3 {
   font-family: Sen, sans-serif;
   font-weight: 700;
   font-size: 28px;
@@ -30,7 +30,7 @@
   letter-spacing: -1px;
 }
 
-.heading_h4 {
+.utl-txt-heading-h4 {
   font-family: Sen, sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -38,13 +38,7 @@
   letter-spacing: 0;
 }
 
-.heading_h5 {
-}
-
-.heading_h6 {
-}
-
-.body_1 {
+.utl-txt-body-1 {
   font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -52,14 +46,11 @@
   letter-spacing: 0;
 }
 
-.body_1_yellow {
+.utl-txt-body-1-yellow {
   color: var(--color-yellow);
 }
 
-.body_2 {
-}
-
-.label_01 {
+.utl-txt-label-01 {
   font-family: Inter, sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -67,7 +58,7 @@
   letter-spacing: 0;
 }
 
-.cap_1 {
+.utl-txt-cap-1 {
   font-family: Inter, sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -76,14 +67,11 @@
   text-transform: uppercase;
 }
 
-.cap_1_bold {
+.utl-txt-cap-1_bold {
   font-weight: 900;
 }
 
-.cap_2 {
-}
-
-.btn-text {
+.utl-txt-btn-text {
   font-family: Sen, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -91,7 +79,7 @@
   letter-spacing: 0;
 }
 
-.read-more-link-text {
+.utl-txt-read-more-link {
   font-family: Sen, sans-serif;
   font-weight: 700;
   font-size: 18px;
