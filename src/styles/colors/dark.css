@@ -1,16 +1,16 @@
 :root {
   color-scheme: dark;
 
-  /* --color-primary: var(--color-black);
-  --color-secondary: var(--color-white); */
+  --color-primary: var(--color-black);
+  --color-secondary: var(--color-white);
 
   --color-black: var(--color-light);
-  --color-yellow: var(--color-yellow);
-  --color-dark-grey: var(--color-dark-grey);
+  --color-yellow: var(--color-light-yellow);
+  --color-dark-grey: var(--color-light-grey);
   --color-medium-grey: var(--color-medium-grey);
   --color-purple: var(--color-purple);
   --color-light: var(--color-black);
-  --color-light-yellow: var(--color-light-yellow);
-  --color-light-grey: var(--color-light-grey);
+  --color-light-yellow: var(--color-yellow);
+  --color-light-grey: var(--color-dark-grey);
   --color-lavender: var(--color-lavender);
 }

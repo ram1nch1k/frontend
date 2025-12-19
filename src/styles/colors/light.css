@@ -1,8 +1,8 @@
 :root {
   color-scheme: light;
 
-  /* --color-primary: var(--color-white);
-  --color-secondary: var(--color-black); */
+  --color-primary: var(--color-white);
+  --color-secondary: var(--color-black);
 
   --color-black: var(--color-black);
   --color-yellow: var(--color-yellow);

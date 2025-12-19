@@ -20,6 +20,8 @@
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -2px;
+
+  color: var(--color-dark);
 }
 
 .utl-txt-heading-h3 {

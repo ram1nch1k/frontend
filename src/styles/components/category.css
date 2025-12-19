@@ -10,7 +10,7 @@
 .category__header-text {
   width: 302px;
   height: 48px;
-  color: #232536;
+  color: var(--color-dark)
 }
 
 .category__categories {
